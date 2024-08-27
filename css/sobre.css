@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 0;
+    margin-top: 2%;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(23, 90, 110);
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(150, 98, 20);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    box-shadow: 0 10px 15px rgb(255, 0, 0), 0 -10px 15px rgb(255, 0, 0);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    font-family: "Lacquer", system-ui;
+    margin-top: 2%;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: rgb(255, 0, 0);
+}
+
+nav a:active {
+    color: rgb(0, 0, 0);
+}
+
+.caixa-textos {
+    background-color: rgb(185, 116, 12);
+    width: 80%;
+    color: rgb(255, 255, 255);
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.caixa-textos h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.caixa-textos p {
+    text-align: left;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.imagem-container {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.imagem-container img {
+    border-radius: 100%;
+    width: 300px;
+    margin-right: 20px;
+}
+
+.imagem-container .texto-com-imagem {
+    max-width: 70%;
+}
+
+.texto-com-imagem a {
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+}
+
+.texto-com-imagem a:visited {
+    color: rgb(255, 0, 0);
+}
+
+.texto-com-imagem a:active {
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+}
+
+.texto-com-imagem a:hover {
+    text-decoration: underline;
+    color: rgb(200, 0, 0);
+}
